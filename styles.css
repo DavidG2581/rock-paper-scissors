@@ -1,0 +1,14 @@
+body {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    font-size: large;
+}
+
+.container {
+    background-color: lightcoral;
+    
+}
