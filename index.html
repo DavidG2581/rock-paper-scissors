@@ -6,17 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="./game.js" defer></script>
 </head>
 <body>
     <div class="container">
-            <p id="message">sdfasdgsdggasdg</p>
+        <div class="introduction">
+            <h1>Welcome to Rock, Paper, Scissors!</h1>
+            <h3>choose an option:</h3>
+        </div>
 
+        <div class="selections">
+            <Button class="choices" id="rock" >👊</Button>
+            <Button class="choices" id="paper">🤚</Button>
+            <Button class="choices" id="scissors">✌</Button>
+        </div>
 
+        <div class="message">
+            <p id="message"></p>
 
-
-    </div>
-    
+        </div>
+        
+    </div> 
 </body>
 
-<script src="./game.js"></script>
+
 </html>
